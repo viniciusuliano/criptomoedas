@@ -82,6 +82,11 @@ table td{
 }
 
 @media screen and (max-width: 600px){
+
+    .name_home img{
+        margin-left: 15px;
+    }
+
     table{
         border: 0;
     }
@@ -139,4 +144,22 @@ table td{
     color: #fff;
     font-weight: bold;
     font-size: 14px;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+    transition: all 1s;
+}
+
+.logo:hover{
+    transform: scale(1.5);
+    z-index: 99;
+}
+
+
+.name_home{
+    display: flex;
+    gap: 8px;
+    align-items: center;
 }

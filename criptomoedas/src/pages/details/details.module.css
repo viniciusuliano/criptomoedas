@@ -1,0 +1,39 @@
+.contente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+    background-color: rgb(3, 0, 0);
+    padding: 14px;
+    border-radius: 5px;
+    color: #fff;
+    gap: 10px;
+}
+
+
+.logo{
+    width: 70px;
+    transition: all 1s;
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+}
+
+
+.Profit{
+    color: #12f98a;
+    font-weight: bold;
+}
+
+.Loss{
+    color: #f91257;
+    font-weight: bold;
+}
