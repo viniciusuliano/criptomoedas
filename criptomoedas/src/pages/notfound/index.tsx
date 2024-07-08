@@ -5,7 +5,7 @@ export function NotFound() {
         <>
         <h1>Erro 404, página não encontrada</h1>
         <Link to='/'>Home</Link>
-        <Link to='/details'>Detalhes</Link>
+        <Link to='/detalhes'>Detalhes</Link>
         </>
     )
   }
